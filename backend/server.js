@@ -15,7 +15,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors());
 
-app.use("/api/products", productRoutes);
+app.use("/api/products/", productRoutes);
 
 async function initDB() {
   try {
