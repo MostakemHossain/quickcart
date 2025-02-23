@@ -3,7 +3,7 @@
 import { EditIcon, TrashIcon } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useProductStore } from '../store/useProductStroe'
+import { useProductStore } from '../store/useProductStore'
 
 const ProductCart = ({ product }) => {
     const { deleteProduct } = useProductStore();
